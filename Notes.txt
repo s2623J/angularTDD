@@ -1,0 +1,25 @@
+
+**********************************************************************************
+** IMPORTANT: Create the tests FIRST, make them pass, THEN refactor/style elements
+**********************************************************************************
+
+
+    Angular Test Driven Development
+    -------------------------------
+
+    Install:
+        Enter: "ng new tdd-angular"
+        Add "app-header" and "app-homes" components
+        Add components to app.component.html
+        Enter "ng serve"
+        Enter: "npm i jquery uikit"
+        Put these paths in the angular.json scripts section:
+            "node_modules/jquery/dist/jquery.min.js",
+            "node_modules/uikit/dist/js/uikit.min.js",
+            "node_modules/uikit/dist/js/uikit-icons.min.js"
+        Import "uikit.theme.less" at the top of styles.less page
+        Delete test scripts in app.component.spec.ts 
+
+    Navbar:
+        Run both "ng serve" and "ng test" at the same time
+        
